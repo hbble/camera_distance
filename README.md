@@ -6,3 +6,7 @@ After installing open file `MainWindow.cs`, `line 24` and provide path to  `haar
 
 Example:
     `"C:\\Emgu\\emgucv-windows-x64 2.4.0.1717\\opencv\\data\\haarcascades\\haarcascade_frontalface_default.xml"`
+    
+#### Notice: function on `line 90` contains params, which are individual to each camera. `1400` means pixels per cm; `f` means focus length.
+
+To run properly, please use monotone background.
