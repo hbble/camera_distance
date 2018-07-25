@@ -2,7 +2,7 @@
 
 To run project you need to install libemgucv library (tested on `libemgucv-windows-x64-2.4.0.1717`).
 
-After installing open file `MainWindow.cs`, `line 24` and provide path to  `haarcascade_frontalface_default.xml` file.
+After installing open file `MainWindow.cs`, `line 24` and provide path to  `.xml` file to recognize object.
 
 Example:
     `"C:\\Emgu\\emgucv-windows-x64 2.4.0.1717\\opencv\\data\\haarcascades\\haarcascade_frontalface_default.xml"`
